@@ -1,0 +1,45 @@
+.flexbox{
+    display: flexbox;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+.abril-fatface{
+    font-family: 'Abril Fatface', cursive;
+}
+.size20{
+    font-size: 20pt;
+}
+.size50{
+    font-size: 50pt;
+}
+.label-font{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+}
+.logo-size{
+    height: 10vh;
+    box-shadow: 10px 10px rgb(73, 70, 70);
+
+}
+body{
+    background-image: url("../images/lab-bg.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+label{
+    color: white;
+}
+h1{
+    color: #E0B25D;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.btn-d{
+    background-color: #E0B25D;
+    color: white
+}

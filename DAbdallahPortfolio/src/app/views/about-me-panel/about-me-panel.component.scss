@@ -1,9 +1,17 @@
+body .ui-sidebar{
+  background-color: #c8c8c8;
+}
+h1{
+  border-bottom: thick;
+  border-style: solid;
+}
 p{
   color: white;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 p.active,p:hover{
   background: white;

@@ -1,1 +1,6 @@
-<p>left-panel works!</p>
+<p-sidebar [(visible)]="display">
+    <p class="py-3">Select a Project to view:</p>
+    <p-listbox [options]="projects1" [(ngModel)]="selectedProject"></p-listbox>
+</p-sidebar>
+
+<i (click)="display = true" label="Show" class="fa fa-ellipsis-v style-menu"></i>

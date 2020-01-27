@@ -1,0 +1,11 @@
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\bin\Debug\DAbdallah_Project2.exe.config
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\bin\Debug\DAbdallah_Project2.exe
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\bin\Debug\DAbdallah_Project2.pdb
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.csprojAssemblyReference.cache
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.Title_Screen.resources
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.Game_Screen.resources
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.Properties.Resources.resources
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.csproj.GenerateResource.cache
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.csproj.CoreCompileInputs.cache
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.exe
+C:\Users\duend\source\repos\DAbdallah_Project2\DAbdallah_Project2\obj\Debug\DAbdallah_Project2.pdb
