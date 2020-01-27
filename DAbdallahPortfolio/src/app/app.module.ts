@@ -12,7 +12,8 @@ import { HeaderComponent } from './views/header/header.component';
 import { RoutingWindowComponent } from './views/routing-window/routing-window.component';
 import { LeftPanelComponent } from './views/left-panel/left-panel.component';
 import { RightPanelComponent } from './views/right-panel/right-panel.component';
-import { AboutMePanelComponent } from './views/about-me-panel/about-me-panel.component'
+import { AboutMePanelComponent } from './views/about-me-panel/about-me-panel.component';
+import { ContactMeComponent } from './views/contact-me/contact-me.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AboutMePanelComponent } from './views/about-me-panel/about-me-panel.com
     RoutingWindowComponent,
     LeftPanelComponent,
     RightPanelComponent,
-    AboutMePanelComponent
+    AboutMePanelComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
