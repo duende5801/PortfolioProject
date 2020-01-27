@@ -1,9 +1,16 @@
 <div class="container-fluid">
   <app-header></app-header>
-</div>
-<div class="container-fluid">
-  <app-main></app-main>
-</div>
-<div class="container-fluid">
-  <app-footer></app-footer>
+  <div class="row">
+    <div class="col-2">
+      <app-left-panel></app-left-panel>
+    </div>
+    <div class="col-8">
+      <app-routing-window>
+        <router-outlet></router-outlet>
+      </app-routing-window>
+    </div>
+    <div class="col-2">
+      <app-right-panel></app-right-panel>
+    </div>
+  </div>
 </div>

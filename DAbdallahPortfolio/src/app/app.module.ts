@@ -1,27 +1,32 @@
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
+import {SidebarModule} from 'primeng/sidebar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { MainComponent } from './main/main.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './pages/home/home.component';
-import { AboutMeComponent } from './pages/about-me/about-me.component';
-import { MyProjectsComponent } from './pages/my-projects/my-projects.component';
+import { HeaderComponent } from './views/header/header.component';
+import { RoutingWindowComponent } from './views/routing-window/routing-window.component';
+import { LeftPanelComponent } from './views/left-panel/left-panel.component';
+import { RightPanelComponent } from './views/right-panel/right-panel.component';
+import { AboutMePanelComponent } from './views/about-me-panel/about-me-panel.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent,
-    FooterComponent,
-    HomeComponent,
-    AboutMeComponent,
-    MyProjectsComponent
+    RoutingWindowComponent,
+    LeftPanelComponent,
+    RightPanelComponent,
+    AboutMePanelComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    NgbModule,
+    SidebarModule,
     AppRoutingModule
   ],
   providers: [],
