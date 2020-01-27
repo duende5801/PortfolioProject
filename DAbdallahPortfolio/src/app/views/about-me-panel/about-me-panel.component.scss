@@ -1,20 +1,19 @@
 p{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
 }
 p.active,p:hover{
-    background: white;
-    color: #333 !important;
-    transition: .5s;
+  background: white;
+  color: #333 !important;
+  transition: .65s;
+}
+@media (max-width: 858px){
+  p:hover,p.active{
+    background: none;
+    color: white;
+    font-size: 20px;
   }
-  @media (max-width: 858px){
-    p:hover,p.active{
-        background: none;
-        color: white;
-        font-size: 20px;
-    }
-  }
+}

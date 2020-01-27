@@ -5,9 +5,6 @@
     list-style: none;
     box-sizing: border-box;
   }
-  .cart{
-    width: 35px;
-  }
   nav{
     background: #333;
     height: 80px;
@@ -39,7 +36,7 @@
   a.active,a:hover{
     background: white;
     color: #333 !important;
-    transition: .5s;
+    transition: .65s;
   }
   .checkbtn{
     font-size: 30px;
